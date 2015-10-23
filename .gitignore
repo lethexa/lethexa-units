@@ -1,0 +1,7 @@
+/build/
+/dist/
+/doc/
+/node_modules/
+/coverage/
+results.txt
+npm-debug.log
