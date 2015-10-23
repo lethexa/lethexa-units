@@ -1,27 +1,13 @@
-A message-scheduling-library
+Converter for physical units
 
 Usage
 -----
-	var sched = require('lethexa-scheduler');
+	var units = require('lethexa-units');
 
-	var scheduler = sched.createScheduler();
-	var dt;
+        units.LENGTH.setFactorToSI(2.0);
 
-	scheduler.schedule(2.0, {}, function(param) {
-		...
-	});
-
-	scheduler.schedule(1.0, {}, function(param) {
-		...
-	});
-
-        dt = scheduler.timeTillNext();
-	// ... wait dt-seconds ....
-	scheduler.tickNext();
-
-        dt = scheduler.timeTillNext();
-	// ... wait dt-seconds ....
-	scheduler.tickNext();
+	console.log('Length: ', units.LENGTH.fromSI(10));
+	console.log('Length: ', units.LENGTH.toSI(10));
 
 
 Contributors
