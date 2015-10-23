@@ -4,10 +4,10 @@ Usage
 -----
 	var units = require('lethexa-units');
 
-        units.LENGTH.setFactorToSI(2.0);
+        units.LENGTH = new units.Converter(0.3048, 'm', 'ft');
 
-	console.log('Length: ', units.LENGTH.fromSI(10));
-	console.log('Length: ', units.LENGTH.toSI(10));
+	console.log('Length [ft]: ', units.LENGTH.fromSI(1)); // 0.3048
+	console.log('Length [m]: ', units.LENGTH.toSI(0.3048)); // 1
 
 
 Contributors
