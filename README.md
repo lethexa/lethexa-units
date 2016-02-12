@@ -10,11 +10,6 @@ Usage
 	console.log('Length [m]: ', units.LENGTH.toSI(0.3048)); // 1
 
 
-Contributors
-------------
-
-* lethexa
-
 
 
 
