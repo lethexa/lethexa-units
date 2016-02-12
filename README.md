@@ -16,10 +16,5 @@ Contributors
 * lethexa
 
 
-License
--------
-Copyright (c) 2015 Tim Leerhoff <tleerhof@web.de>
-
-Licensed under MIT
 
 
