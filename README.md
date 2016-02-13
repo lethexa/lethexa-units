@@ -1,7 +1,14 @@
 lethexa-units
 -------------
 
-Converter for physical units
+This library contains converters for physical units.
+
+Build
+-----
+
+	npm install
+	grunt
+
 
 Usage
 -----
@@ -12,7 +19,10 @@ Usage
 	console.log('Length [ft]: ', units.LENGTH.fromSI(1)); // 0.3048
 	console.log('Length [m]: ', units.LENGTH.toSI(0.3048)); // 1
 
+License
+-------
 
+This library is published under MIT-license.
 
 
 
