@@ -1,0 +1,30 @@
+{
+  "name": "lethexa-units",
+  "version": "0.0.5",
+  "description": "Convert physical units",
+  "main": "lethexa-units.js",
+  "authors": [
+    "Tim Leerhoff <tleerhof@web.de>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Physics"
+  ],
+  "moduleType": [
+    "es6",
+    "node",
+    "yui"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Gruntfile.js",
+    "jenkins-grunt.sh",
+    "publishTag.sh",
+    "lib",
+    "test",
+    "tests"
+  ]
+}
