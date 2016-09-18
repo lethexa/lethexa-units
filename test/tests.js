@@ -5,7 +5,7 @@ describe('units', function () {
     describe('#toSI()', function () {
         it('should convert SI value from other', function () {
 
-            units.LENGTH = new units.Converter(2.0, 'm', 'x');
+            units.LENGTH = new units.Converter(2.0, 0, 'm', 'x');
 
             assert.equal(2.0, units.LENGTH.toSI(1.0));
         });
@@ -14,7 +14,7 @@ describe('units', function () {
     describe('#fromSI()', function () {
         it('should convert SI value to other', function () {
 
-            units.LENGTH = new units.Converter(2.0, 'm', 'x');
+            units.LENGTH = new units.Converter(2.0, 0, 'm', 'x');
 
             assert.equal(1.0, units.LENGTH.fromSI(2.0));
         });
@@ -23,7 +23,7 @@ describe('units', function () {
     describe('#asString()', function () {
         it('should generate a unit-string from the value', function () {
 
-            units.LENGTH = new units.Converter(2.0, 'm', 'x');
+            units.LENGTH = new units.Converter(2.0, 0, 'm', 'x');
 
             assert.equal('1x', units.LENGTH.asString(2.0));
         });
@@ -32,7 +32,7 @@ describe('units', function () {
     describe('#asStringSI()', function () {
         it('should generate an SI-unit-string from the value', function () {
 
-            units.LENGTH = new units.Converter(2.0, 'm', 'x');
+            units.LENGTH = new units.Converter(2.0, 0, 'm', 'x');
 
             assert.equal('2m', units.LENGTH.asStringSI(1.0));
         });
