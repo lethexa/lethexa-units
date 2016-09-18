@@ -1,6 +1,6 @@
 {
   "name": "lethexa-units",
-  "version": "0.0.6",
+  "version": "1.0.0",
   "description": "Convert physical units",
   "main": "lethexa-units.js",
   "authors": [
